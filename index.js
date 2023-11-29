@@ -87,7 +87,7 @@ function updateOpn(){
 parent.addEventListener("click", checkAns);
 btn.addEventListener("click", updateQues,);
 function start(){
-  btn.removeEventListener('click',updateOpn);
+  btn.removeEventListener('click',updateQues);
   parent.removeEventListener("click", checkAns);
   console.log("event is clear now")
 }
